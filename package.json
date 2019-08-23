@@ -1,0 +1,33 @@
+{
+  "name": "tailwindcss-gutenberg",
+  "version": "1.0.0",
+  "description": "Tailwindcss plugin to generate gutenberg colour utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hatchetaustralia/tailwindcss-gutenberg.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "gutenberg",
+    "wordpress"
+  ],
+  "author": "Glenn Forrest <glenn@hatchet.com.au>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hatchetaustralia/tailwindcss-gutenberg/issues"
+  },
+  "homepage": "https://github.com/hatchetaustralia/tailwindcss-gutenberg#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "jest-matcher-css": "^1.1.0",
+    "postcss": "^7.0.17",
+    "tailwindcss": "^1.1.2"
+  }
+}
